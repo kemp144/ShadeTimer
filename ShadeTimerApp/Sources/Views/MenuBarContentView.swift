@@ -210,8 +210,6 @@ struct MenuBarContentView: View {
                 range: 0.5 ... 10.0
             )
 
-            Toggle("Show remaining timer in menu bar", isOn: $preferences.showRemainingTimerInMenuBar)
-
             Toggle("Put computer to sleep when timer ends", isOn: $preferences.sleepComputerWhenTimerEnds)
 
         }

@@ -80,14 +80,6 @@ public final class AppController: ObservableObject {
         }
     }
 
-    public var menuBarCountText: String? {
-        guard preferences.showRemainingTimerInMenuBar, state == .countingDown, let remainingTime else {
-            return nil
-        }
-
-        return Self.shortDurationFormatter.string(from: remainingTime)
-    }
-
     public var stateTitle: String {
         switch state {
         case .idle:
@@ -473,11 +465,4 @@ public final class AppController: ObservableObject {
         return formatter
     }()
 
-    private static let shortDurationFormatter: DateComponentsFormatter = {
-        let formatter = DateComponentsFormatter()
-        formatter.allowedUnits = [.hour, .minute, .second]
-        formatter.unitsStyle = .positional
-        formatter.zeroFormattingBehavior = [.pad]
-        return formatter
-    }()
 }
