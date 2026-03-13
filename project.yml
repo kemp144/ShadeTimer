@@ -1,0 +1,64 @@
+name: ShadeTimer
+options:
+  bundleIdPrefix: com.robertengel
+  deploymentTarget:
+    macOS: "13.0"
+settings:
+  base:
+    PRODUCT_BUNDLE_IDENTIFIER: com.robertengel.ShadeTimer
+    SWIFT_VERSION: 6.0
+    MACOSX_DEPLOYMENT_TARGET: 13.0
+    CURRENT_PROJECT_VERSION: 1
+    MARKETING_VERSION: 1.0
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_KEY_CFBundleDisplayName: ShadeTimer
+    INFOPLIST_KEY_LSUIElement: YES
+    INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.utilities
+    INFOPLIST_KEY_NSPrincipalClass: NSApplication
+    ENABLE_HARDENED_RUNTIME: YES
+    SUPPORTS_MACCATALYST: NO
+targets:
+  ShadeTimerCore:
+    type: framework
+    platform: macOS
+    sources:
+      - path: ShadeTimerApp/Sources/Controllers
+      - path: ShadeTimerApp/Sources/Managers
+      - path: ShadeTimerApp/Sources/Models
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.robertengel.ShadeTimerCore
+        PRODUCT_NAME: ShadeTimerCore
+        DEFINES_MODULE: YES
+  ShadeTimer:
+    type: application
+    platform: macOS
+    sources:
+      - path: ShadeTimerApp/Sources/App
+      - path: ShadeTimerApp/Sources/Views
+      - path: ShadeTimerApp/Resources
+        excludes:
+          - ShadeTimer.entitlements
+    dependencies:
+      - target: ShadeTimerCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.robertengel.ShadeTimer
+        PRODUCT_NAME: ShadeTimer
+        CODE_SIGN_ENTITLEMENTS: ShadeTimerApp/Resources/ShadeTimer.entitlements
+    scheme:
+      testTargets:
+        - ShadeTimerTests
+  ShadeTimerTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - ShadeTimerTests
+    dependencies:
+      - target: ShadeTimerCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.robertengel.ShadeTimerTests
+        PRODUCT_NAME: $(TARGET_NAME)
+        TEST_HOST: ""
+        BUNDLE_LOADER: ""

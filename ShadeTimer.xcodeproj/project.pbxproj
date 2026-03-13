@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01AFE7A75EB49CF1945E9F87 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A94794ACCD981B457861168 /* AppController.swift */; };
+		0FC7D7082E2F82326AB07E51 /* ShadeTimerCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6B0C2488D28EE7F2B6637B /* ShadeTimerCore.framework */; };
+		47B95606C76C754FE968B2AF /* TimerPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB1200AADDAC0D1B8083ECD /* TimerPreset.swift */; };
+		5BB0ADF8C3EC31FCE032AE80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C795355C89FDFD3C2622FFC /* Assets.xcassets */; };
+		631EB0BBDF53A2184278C61B /* MenuBarLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81407FDA98315C33FE3E3322 /* MenuBarLabelView.swift */; };
+		65288EBC5DC5D04A818C9E97 /* DisplayDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF8647851AE12CF4D9FCA9 /* DisplayDescriptor.swift */; };
+		6E36989502ED097D331FAABB /* ShadeTimerCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6B0C2488D28EE7F2B6637B /* ShadeTimerCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7D94852C40F6444DC009C303 /* DisplayTargetSelectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F3DC91A4F22855EAA238B3 /* DisplayTargetSelectorTests.swift */; };
+		98082C99222949104AA3727A /* ShadeTimerCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6B0C2488D28EE7F2B6637B /* ShadeTimerCore.framework */; };
+		A326A420F439AA6732443413 /* AppPreferencesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B31395A83EA0CEC783021A4 /* AppPreferencesTests.swift */; };
+		B0F3F9080ADFF4F05D05E3CB /* MenuBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AD07931115291401BC366C /* MenuBarContentView.swift */; };
+		B631F063D7C4494280FC5829 /* ShadeTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E51911703C9F291C8881748 /* ShadeTimerApp.swift */; };
+		BB9789FB74589D82A4A29379 /* OverlayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B317EE9E60A93B04F44AFD5B /* OverlayManager.swift */; };
+		C5972029DEEA4BF496197232 /* AppPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8883A5B5E7ACE1CFBD63401 /* AppPreferences.swift */; };
+		DA1677B485CCD595317581A9 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D2701DE53D2DA52ABF695 /* AppState.swift */; };
+		F0C6FB54E712BD29B9C50206 /* ShadeTimerCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6B0C2488D28EE7F2B6637B /* ShadeTimerCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F581385DA9B0BFBE00239BC5 /* TimerManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192A6D2FD77CEBE8956CF037 /* TimerManagerTests.swift */; };
+		FBD486CA46295B1E09A43286 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72807267380CDAC4F8D697F9 /* TimerManager.swift */; };
+		FD3DFEB2B1CD950E1C9D0BC2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E2A4CD836863C70B2B9F5760 /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69A553EDB5EE2C1E11EA92C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B66EE64F9C5F995122ECFCDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D58F83B2B330E2B26A9444C2;
+			remoteInfo = ShadeTimerCore;
+		};
+		E0C95401FB6A84BB343F6124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B66EE64F9C5F995122ECFCDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D58F83B2B330E2B26A9444C2;
+			remoteInfo = ShadeTimerCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E9CDB25AEC1186FA55EEEE9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6E36989502ED097D331FAABB /* ShadeTimerCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB99073A0027D99A7B73771F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F0C6FB54E712BD29B9C50206 /* ShadeTimerCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0BB1200AADDAC0D1B8083ECD /* TimerPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerPreset.swift; sourceTree = "<group>"; };
+		192A6D2FD77CEBE8956CF037 /* TimerManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManagerTests.swift; sourceTree = "<group>"; };
+		1C795355C89FDFD3C2622FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A6B0C2488D28EE7F2B6637B /* ShadeTimerCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShadeTimerCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFF8647851AE12CF4D9FCA9 /* DisplayDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDescriptor.swift; sourceTree = "<group>"; };
+		2E51911703C9F291C8881748 /* ShadeTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadeTimerApp.swift; sourceTree = "<group>"; };
+		331D109CBB8987368FC025E1 /* ShadeTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadeTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B31395A83EA0CEC783021A4 /* AppPreferencesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPreferencesTests.swift; sourceTree = "<group>"; };
+		661809352189A22CC52DF28A /* ShadeTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadeTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72807267380CDAC4F8D697F9 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		7E4D2701DE53D2DA52ABF695 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		81407FDA98315C33FE3E3322 /* MenuBarLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarLabelView.swift; sourceTree = "<group>"; };
+		8A94794ACCD981B457861168 /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		B317EE9E60A93B04F44AFD5B /* OverlayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayManager.swift; sourceTree = "<group>"; };
+		D9AD07931115291401BC366C /* MenuBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarContentView.swift; sourceTree = "<group>"; };
+		E2A4CD836863C70B2B9F5760 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		E8883A5B5E7ACE1CFBD63401 /* AppPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPreferences.swift; sourceTree = "<group>"; };
+		E8F3DC91A4F22855EAA238B3 /* DisplayTargetSelectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTargetSelectorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2215BCCE1D52E6E91CBF2CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98082C99222949104AA3727A /* ShadeTimerCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7F76BCB42517B123C37C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC7D7082E2F82326AB07E51 /* ShadeTimerCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		099B39DC803840B729E32537 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A94794ACCD981B457861168 /* AppController.swift */,
+			);
+			name = Controllers;
+			path = ShadeTimerApp/Sources/Controllers;
+			sourceTree = "<group>";
+		};
+		7054673AECDC7E3834B3FB0A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B317EE9E60A93B04F44AFD5B /* OverlayManager.swift */,
+				72807267380CDAC4F8D697F9 /* TimerManager.swift */,
+			);
+			name = Managers;
+			path = ShadeTimerApp/Sources/Managers;
+			sourceTree = "<group>";
+		};
+		75B6D6E796D011DFBE0C0F81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C795355C89FDFD3C2622FFC /* Assets.xcassets */,
+				E2A4CD836863C70B2B9F5760 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			path = ShadeTimerApp/Resources;
+			sourceTree = "<group>";
+		};
+		769BCF7DBA30CAC7D104FF1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				331D109CBB8987368FC025E1 /* ShadeTimer.app */,
+				2A6B0C2488D28EE7F2B6637B /* ShadeTimerCore.framework */,
+				661809352189A22CC52DF28A /* ShadeTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8906501C299886E326BE1FDB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9AD07931115291401BC366C /* MenuBarContentView.swift */,
+				81407FDA98315C33FE3E3322 /* MenuBarLabelView.swift */,
+			);
+			name = Views;
+			path = ShadeTimerApp/Sources/Views;
+			sourceTree = "<group>";
+		};
+		97A96D80C1C41E7F7B677595 /* ShadeTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B31395A83EA0CEC783021A4 /* AppPreferencesTests.swift */,
+				E8F3DC91A4F22855EAA238B3 /* DisplayTargetSelectorTests.swift */,
+				192A6D2FD77CEBE8956CF037 /* TimerManagerTests.swift */,
+			);
+			path = ShadeTimerTests;
+			sourceTree = "<group>";
+		};
+		B99E18A1A0C70A891D001026 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E8883A5B5E7ACE1CFBD63401 /* AppPreferences.swift */,
+				7E4D2701DE53D2DA52ABF695 /* AppState.swift */,
+				2DFF8647851AE12CF4D9FCA9 /* DisplayDescriptor.swift */,
+				0BB1200AADDAC0D1B8083ECD /* TimerPreset.swift */,
+			);
+			name = Models;
+			path = ShadeTimerApp/Sources/Models;
+			sourceTree = "<group>";
+		};
+		E0DFDBE8E81E91C4D92176B2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2E51911703C9F291C8881748 /* ShadeTimerApp.swift */,
+			);
+			name = App;
+			path = ShadeTimerApp/Sources/App;
+			sourceTree = "<group>";
+		};
+		EE99989AC080365D68242D1C = {
+			isa = PBXGroup;
+			children = (
+				E0DFDBE8E81E91C4D92176B2 /* App */,
+				099B39DC803840B729E32537 /* Controllers */,
+				7054673AECDC7E3834B3FB0A /* Managers */,
+				B99E18A1A0C70A891D001026 /* Models */,
+				75B6D6E796D011DFBE0C0F81 /* Resources */,
+				97A96D80C1C41E7F7B677595 /* ShadeTimerTests */,
+				8906501C299886E326BE1FDB /* Views */,
+				769BCF7DBA30CAC7D104FF1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BE7EBF4B30BBAA232A38FC6 /* ShadeTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B985CE6D862ED98475F78BC2 /* Build configuration list for PBXNativeTarget "ShadeTimerTests" */;
+			buildPhases = (
+				91519CD641311CE79C9FDDBE /* Sources */,
+				A2215BCCE1D52E6E91CBF2CC /* Frameworks */,
+				3E9CDB25AEC1186FA55EEEE9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F673FE03A48E738EAE959FD /* PBXTargetDependency */,
+			);
+			name = ShadeTimerTests;
+			packageProductDependencies = (
+			);
+			productName = ShadeTimerTests;
+			productReference = 661809352189A22CC52DF28A /* ShadeTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9489C5E0B7AEC4A02161FBD2 /* ShadeTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1859F509132F401A80A4903A /* Build configuration list for PBXNativeTarget "ShadeTimer" */;
+			buildPhases = (
+				DD3C3AAA4228570CB8B35DAF /* Sources */,
+				0814A36734F9A0207EA7CD8C /* Resources */,
+				FC7F76BCB42517B123C37C9F /* Frameworks */,
+				AB99073A0027D99A7B73771F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3513CF6C17F51A6CAB50AF24 /* PBXTargetDependency */,
+			);
+			name = ShadeTimer;
+			packageProductDependencies = (
+			);
+			productName = ShadeTimer;
+			productReference = 331D109CBB8987368FC025E1 /* ShadeTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D58F83B2B330E2B26A9444C2 /* ShadeTimerCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B33D7449B45D57A9E25BA8F2 /* Build configuration list for PBXNativeTarget "ShadeTimerCore" */;
+			buildPhases = (
+				9ECEA733C7370E922553FD49 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShadeTimerCore;
+			packageProductDependencies = (
+			);
+			productName = ShadeTimerCore;
+			productReference = 2A6B0C2488D28EE7F2B6637B /* ShadeTimerCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B66EE64F9C5F995122ECFCDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = D2F0760C25A1D87391EACB6A /* Build configuration list for PBXProject "ShadeTimer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = EE99989AC080365D68242D1C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 769BCF7DBA30CAC7D104FF1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9489C5E0B7AEC4A02161FBD2 /* ShadeTimer */,
+				D58F83B2B330E2B26A9444C2 /* ShadeTimerCore */,
+				4BE7EBF4B30BBAA232A38FC6 /* ShadeTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0814A36734F9A0207EA7CD8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB0ADF8C3EC31FCE032AE80 /* Assets.xcassets in Resources */,
+				FD3DFEB2B1CD950E1C9D0BC2 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91519CD641311CE79C9FDDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A326A420F439AA6732443413 /* AppPreferencesTests.swift in Sources */,
+				7D94852C40F6444DC009C303 /* DisplayTargetSelectorTests.swift in Sources */,
+				F581385DA9B0BFBE00239BC5 /* TimerManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECEA733C7370E922553FD49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AFE7A75EB49CF1945E9F87 /* AppController.swift in Sources */,
+				C5972029DEEA4BF496197232 /* AppPreferences.swift in Sources */,
+				DA1677B485CCD595317581A9 /* AppState.swift in Sources */,
+				65288EBC5DC5D04A818C9E97 /* DisplayDescriptor.swift in Sources */,
+				BB9789FB74589D82A4A29379 /* OverlayManager.swift in Sources */,
+				FBD486CA46295B1E09A43286 /* TimerManager.swift in Sources */,
+				47B95606C76C754FE968B2AF /* TimerPreset.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3C3AAA4228570CB8B35DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F3F9080ADFF4F05D05E3CB /* MenuBarContentView.swift in Sources */,
+				631EB0BBDF53A2184278C61B /* MenuBarLabelView.swift in Sources */,
+				B631F063D7C4494280FC5829 /* ShadeTimerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3513CF6C17F51A6CAB50AF24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D58F83B2B330E2B26A9444C2 /* ShadeTimerCore */;
+			targetProxy = 69A553EDB5EE2C1E11EA92C3 /* PBXContainerItemProxy */;
+		};
+		8F673FE03A48E738EAE959FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D58F83B2B330E2B26A9444C2 /* ShadeTimerCore */;
+			targetProxy = E0C95401FB6A84BB343F6124 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13DFF3114FA1F4C0A03AB51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShadeTimerApp/Resources/ShadeTimer.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertengel.ShadeTimer;
+				PRODUCT_NAME = ShadeTimer;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		327923DA44E71E75CDB9E509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ShadeTimer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertengel.ShadeTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		463D8DC6687BA9CC35A885DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertengel.ShadeTimerCore;
+				PRODUCT_NAME = ShadeTimerCore;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		7DD9C5D564A6BCA8FAEB459F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertengel.ShadeTimerCore;
+				PRODUCT_NAME = ShadeTimerCore;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		8B782D671EC335166A31CBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShadeTimerApp/Resources/ShadeTimer.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertengel.ShadeTimer;
+				PRODUCT_NAME = ShadeTimer;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BB9BF113D2FCCDB55AEB9189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertengel.ShadeTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "";
+			};
+			name = Debug;
+		};
+		C7674CCCA536081882CF80F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ShadeTimer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertengel.ShadeTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		F796400A14F26968A152D5DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.robertengel.ShadeTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1859F509132F401A80A4903A /* Build configuration list for PBXNativeTarget "ShadeTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B782D671EC335166A31CBCF /* Debug */,
+				13DFF3114FA1F4C0A03AB51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B33D7449B45D57A9E25BA8F2 /* Build configuration list for PBXNativeTarget "ShadeTimerCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463D8DC6687BA9CC35A885DF /* Debug */,
+				7DD9C5D564A6BCA8FAEB459F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B985CE6D862ED98475F78BC2 /* Build configuration list for PBXNativeTarget "ShadeTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9BF113D2FCCDB55AEB9189 /* Debug */,
+				F796400A14F26968A152D5DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D2F0760C25A1D87391EACB6A /* Build configuration list for PBXProject "ShadeTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7674CCCA536081882CF80F8 /* Debug */,
+				327923DA44E71E75CDB9E509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B66EE64F9C5F995122ECFCDD /* Project object */;
+}
