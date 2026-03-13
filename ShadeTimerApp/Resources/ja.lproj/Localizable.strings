@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "タイマー";
+"Custom Minutes" = "カスタム分";
+"Minutes" = "分";
+"min" = "分";
+"Use" = "使用";
+"Hide" = "非表示";
+"Start Timer" = "タイマーを開始";
+"Restore" = "復元";
+"Cancel" = "キャンセル";
+"All Displays" = "すべてのディスプレイ";
+"Gradually dim until timer ends" = "タイマー終了まで徐々に暗くする";
+"More Settings" = "その他の設定";
+"Dim level" = "暗さレベル";
+"The dim level after the timer finishes." = "タイマー終了後の暗さレベルです。";
+"Current dim level" = "現在の暗さレベル";
+"Current dim level applies immediately while you drag it." = "現在の暗さレベルはドラッグ中にすぐ適用されます。";
+"Fade duration" = "フェード時間";
+"Show remaining timer in menu bar" = "メニューバーに残り時間を表示";
+"Quit" = "終了";
+"Choose Time" = "時間を選択";
+"Ready to dim" = "暗くする準備完了";
+"Timer running" = "タイマー実行中";
+"Screen dimmed" = "画面が暗くなっています";
+"Choose a time, start the timer, or drag Current dim level." = "時間を選択してタイマーを開始するか、現在の暗さレベルをドラッグしてください。";
+"Custom timer" = "カスタムタイマー";
+"Starting…" = "開始中…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • 残り %2$@%3$@";
+" • dimming gradually" = " • 徐々に暗くしています";
+"Use Restore when you want the screen back to normal." = "画面を通常の状態に戻したいときは「復元」を使ってください。";
+"Enter a value between 1 and 720 minutes." = "1〜720分の値を入力してください。";
+"Choose a time first." = "先に時間を選択してください。";
+"%ld min" = "%ld 分";
+"%ldm" = "%ld分";

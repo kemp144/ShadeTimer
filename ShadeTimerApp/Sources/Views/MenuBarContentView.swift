@@ -181,7 +181,7 @@ struct MenuBarContentView: View {
 
             compactSlider(
                 title: "Dim level",
-                valueText: "\(Int(preferences.targetDimOpacity * 100))%",
+                valueText: AppLocalization.percent(preferences.targetDimOpacity),
                 value: $preferences.targetDimOpacity,
                 range: 0.15 ... 0.95
             )
@@ -193,7 +193,7 @@ struct MenuBarContentView: View {
             VStack(alignment: .leading, spacing: 6) {
                 compactSlider(
                     title: "Current dim level",
-                    valueText: "\(Int(controller.currentDimOpacity * 100))%",
+                    valueText: AppLocalization.percent(controller.currentDimOpacity),
                     value: currentDimLevelBinding,
                     range: 0 ... 0.95
                 )
@@ -205,12 +205,14 @@ struct MenuBarContentView: View {
 
             compactSlider(
                 title: "Fade duration",
-                valueText: String(format: "%.1fs", preferences.fadeDuration),
+                valueText: AppLocalization.seconds(preferences.fadeDuration),
                 value: $preferences.fadeDuration,
                 range: 0.5 ... 10.0
             )
 
             Toggle("Show remaining timer in menu bar", isOn: $preferences.showRemainingTimerInMenuBar)
+
+            Toggle("Put computer to sleep when timer ends", isOn: $preferences.sleepComputerWhenTimerEnds)
 
         }
         .padding(12)
@@ -240,10 +242,10 @@ struct MenuBarContentView: View {
         }
 
         if let selectedCustomMinutes = controller.selectedCustomMinutes {
-            return "\(selectedCustomMinutes) min"
+            return AppLocalization.format("%ld min", selectedCustomMinutes)
         }
 
-        return "Choose Time"
+        return AppLocalization.text("Choose Time")
     }
 
     private func menuTitle(for preset: TimerPreset) -> String {
@@ -251,7 +253,7 @@ struct MenuBarContentView: View {
     }
 
     private func compactSlider(
-        title: String,
+        title: LocalizedStringKey,
         valueText: String,
         value: Binding<Double>,
         range: ClosedRange<Double>

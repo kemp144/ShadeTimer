@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Timer";
+"Custom Minutes" = "Anpassade minuter";
+"Minutes" = "Minuter";
+"min" = "min";
+"Use" = "Använd";
+"Hide" = "Dölj";
+"Start Timer" = "Starta timer";
+"Restore" = "Återställ";
+"Cancel" = "Avbryt";
+"All Displays" = "Alla skärmar";
+"Gradually dim until timer ends" = "Dimma gradvis tills timern löper ut";
+"More Settings" = "Fler inställningar";
+"Dim level" = "Dimningsnivå";
+"The dim level after the timer finishes." = "Dimningsnivån när timern är klar.";
+"Current dim level" = "Aktuell dimningsnivå";
+"Current dim level applies immediately while you drag it." = "Den aktuella dimningsnivån tillämpas direkt medan du drar.";
+"Fade duration" = "Toningstid";
+"Show remaining timer in menu bar" = "Visa återstående tid i menyraden";
+"Quit" = "Avsluta";
+"Choose Time" = "Välj tid";
+"Ready to dim" = "Redo att dimma";
+"Timer running" = "Timern körs";
+"Screen dimmed" = "Skärmen är nedtonad";
+"Choose a time, start the timer, or drag Current dim level." = "Välj en tid, starta timern eller dra den aktuella dimningsnivån.";
+"Custom timer" = "Anpassad timer";
+"Starting…" = "Startar…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • %2$@ kvar%3$@";
+" • dimming gradually" = " • dimmar gradvis";
+"Use Restore when you want the screen back to normal." = "Använd Återställ när du vill få tillbaka skärmen till normalt läge.";
+"Enter a value between 1 and 720 minutes." = "Ange ett värde mellan 1 och 720 minuter.";
+"Choose a time first." = "Välj en tid först.";
+"%ld min" = "%ld min";
+"%ldm" = "%ldm";

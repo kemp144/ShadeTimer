@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Таймер";
+"Custom Minutes" = "Власні хвилини";
+"Minutes" = "Хвилини";
+"min" = "хв";
+"Use" = "Використати";
+"Hide" = "Сховати";
+"Start Timer" = "Запустити таймер";
+"Restore" = "Відновити";
+"Cancel" = "Скасувати";
+"All Displays" = "Усі дисплеї";
+"Gradually dim until timer ends" = "Поступово затемнювати до завершення таймера";
+"More Settings" = "Додаткові налаштування";
+"Dim level" = "Рівень затемнення";
+"The dim level after the timer finishes." = "Рівень затемнення після завершення таймера.";
+"Current dim level" = "Поточний рівень затемнення";
+"Current dim level applies immediately while you drag it." = "Поточний рівень затемнення застосовується одразу під час перетягування.";
+"Fade duration" = "Тривалість згасання";
+"Show remaining timer in menu bar" = "Показувати час, що залишився, у рядку меню";
+"Quit" = "Вийти";
+"Choose Time" = "Вибрати час";
+"Ready to dim" = "Готово до затемнення";
+"Timer running" = "Таймер запущено";
+"Screen dimmed" = "Екран затемнено";
+"Choose a time, start the timer, or drag Current dim level." = "Виберіть час, запустіть таймер або перетягніть поточний рівень затемнення.";
+"Custom timer" = "Власний таймер";
+"Starting…" = "Запуск…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • залишилося %2$@%3$@";
+" • dimming gradually" = " • поступове затемнення";
+"Use Restore when you want the screen back to normal." = "Скористайтеся «Відновити», коли захочете повернути екран до звичайного вигляду.";
+"Enter a value between 1 and 720 minutes." = "Введіть значення від 1 до 720 хвилин.";
+"Choose a time first." = "Спочатку виберіть час.";
+"%ld min" = "%ld хв";
+"%ldm" = "%ldхв";

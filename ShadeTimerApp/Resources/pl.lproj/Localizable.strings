@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Timer";
+"Custom Minutes" = "Własne minuty";
+"Minutes" = "Minuty";
+"min" = "min";
+"Use" = "Użyj";
+"Hide" = "Ukryj";
+"Start Timer" = "Uruchom timer";
+"Restore" = "Przywróć";
+"Cancel" = "Anuluj";
+"All Displays" = "Wszystkie ekrany";
+"Gradually dim until timer ends" = "Stopniowo przyciemniaj do końca timera";
+"More Settings" = "Więcej ustawień";
+"Dim level" = "Poziom przyciemnienia";
+"The dim level after the timer finishes." = "Poziom przyciemnienia po zakończeniu timera.";
+"Current dim level" = "Bieżący poziom przyciemnienia";
+"Current dim level applies immediately while you drag it." = "Bieżący poziom przyciemnienia jest stosowany od razu podczas przeciągania.";
+"Fade duration" = "Czas zanikania";
+"Show remaining timer in menu bar" = "Pokaż pozostały czas na pasku menu";
+"Quit" = "Zakończ";
+"Choose Time" = "Wybierz czas";
+"Ready to dim" = "Gotowe do przyciemnienia";
+"Timer running" = "Timer działa";
+"Screen dimmed" = "Ekran jest przyciemniony";
+"Choose a time, start the timer, or drag Current dim level." = "Wybierz czas, uruchom timer lub przeciągnij bieżący poziom przyciemnienia.";
+"Custom timer" = "Własny timer";
+"Starting…" = "Uruchamianie…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • pozostało %2$@%3$@";
+" • dimming gradually" = " • stopniowe przyciemnianie";
+"Use Restore when you want the screen back to normal." = "Użyj Przywróć, gdy chcesz wrócić do normalnego obrazu.";
+"Enter a value between 1 and 720 minutes." = "Wprowadź wartość od 1 do 720 minut.";
+"Choose a time first." = "Najpierw wybierz czas.";
+"%ld min" = "%ld min";
+"%ldm" = "%ldm";

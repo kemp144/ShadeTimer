@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Timer";
+"Custom Minutes" = "Aangepaste minuten";
+"Minutes" = "Minuten";
+"min" = "min";
+"Use" = "Gebruik";
+"Hide" = "Verbergen";
+"Start Timer" = "Timer starten";
+"Restore" = "Herstellen";
+"Cancel" = "Annuleren";
+"All Displays" = "Alle schermen";
+"Gradually dim until timer ends" = "Geleidelijk dimmen totdat de timer afloopt";
+"More Settings" = "Meer instellingen";
+"Dim level" = "Dimniveau";
+"The dim level after the timer finishes." = "Het dimniveau nadat de timer is afgelopen.";
+"Current dim level" = "Huidig dimniveau";
+"Current dim level applies immediately while you drag it." = "Het huidige dimniveau wordt direct toegepast terwijl je sleept.";
+"Fade duration" = "Fade-duur";
+"Show remaining timer in menu bar" = "Resterende tijd in menubalk tonen";
+"Quit" = "Stoppen";
+"Choose Time" = "Tijd kiezen";
+"Ready to dim" = "Klaar om te dimmen";
+"Timer running" = "Timer loopt";
+"Screen dimmed" = "Scherm is gedimd";
+"Choose a time, start the timer, or drag Current dim level." = "Kies een tijd, start de timer of sleep het huidige dimniveau.";
+"Custom timer" = "Aangepaste timer";
+"Starting…" = "Starten…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • nog %2$@%3$@";
+" • dimming gradually" = " • geleidelijk dimmen";
+"Use Restore when you want the screen back to normal." = "Gebruik Herstellen wanneer je het scherm weer normaal wilt hebben.";
+"Enter a value between 1 and 720 minutes." = "Voer een waarde in tussen 1 en 720 minuten.";
+"Choose a time first." = "Kies eerst een tijd.";
+"%ld min" = "%ld min";
+"%ldm" = "%ldm";

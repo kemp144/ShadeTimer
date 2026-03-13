@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Minuteur";
+"Custom Minutes" = "Minutes personnalisées";
+"Minutes" = "Minutes";
+"min" = "min";
+"Use" = "Utiliser";
+"Hide" = "Masquer";
+"Start Timer" = "Démarrer le minuteur";
+"Restore" = "Restaurer";
+"Cancel" = "Annuler";
+"All Displays" = "Tous les écrans";
+"Gradually dim until timer ends" = "Réduire progressivement jusqu’à la fin du minuteur";
+"More Settings" = "Plus de réglages";
+"Dim level" = "Niveau d’assombrissement";
+"The dim level after the timer finishes." = "Le niveau d’assombrissement une fois le minuteur terminé.";
+"Current dim level" = "Niveau d’assombrissement actuel";
+"Current dim level applies immediately while you drag it." = "Le niveau d’assombrissement actuel s’applique immédiatement pendant le glissement.";
+"Fade duration" = "Durée du fondu";
+"Show remaining timer in menu bar" = "Afficher le temps restant dans la barre des menus";
+"Quit" = "Quitter";
+"Choose Time" = "Choisir la durée";
+"Ready to dim" = "Prêt à assombrir";
+"Timer running" = "Minuteur en cours";
+"Screen dimmed" = "Écran assombri";
+"Choose a time, start the timer, or drag Current dim level." = "Choisissez une durée, démarrez le minuteur ou faites glisser le niveau d’assombrissement actuel.";
+"Custom timer" = "Minuteur personnalisé";
+"Starting…" = "Démarrage…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • encore %2$@%3$@";
+" • dimming gradually" = " • assombrissement progressif";
+"Use Restore when you want the screen back to normal." = "Utilisez Restaurer lorsque vous voulez retrouver un écran normal.";
+"Enter a value between 1 and 720 minutes." = "Saisissez une valeur comprise entre 1 et 720 minutes.";
+"Choose a time first." = "Choisissez d’abord une durée.";
+"%ld min" = "%ld min";
+"%ldm" = "%ldm";

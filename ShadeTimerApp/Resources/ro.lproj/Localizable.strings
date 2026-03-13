@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Temporizator";
+"Custom Minutes" = "Minute personalizate";
+"Minutes" = "Minute";
+"min" = "min";
+"Use" = "Folosește";
+"Hide" = "Ascunde";
+"Start Timer" = "Pornește temporizatorul";
+"Restore" = "Restaurează";
+"Cancel" = "Anulează";
+"All Displays" = "Toate afișajele";
+"Gradually dim until timer ends" = "Diminuează treptat până la expirarea temporizatorului";
+"More Settings" = "Mai multe setări";
+"Dim level" = "Nivel de estompare";
+"The dim level after the timer finishes." = "Nivelul de estompare după terminarea temporizatorului.";
+"Current dim level" = "Nivelul curent de estompare";
+"Current dim level applies immediately while you drag it." = "Nivelul curent de estompare se aplică imediat în timp ce glisezi.";
+"Fade duration" = "Durata tranziției";
+"Show remaining timer in menu bar" = "Afișează timpul rămas în bara de meniu";
+"Quit" = "Ieși";
+"Choose Time" = "Alege timpul";
+"Ready to dim" = "Gata de estompare";
+"Timer running" = "Temporizator în curs";
+"Screen dimmed" = "Ecran estompat";
+"Choose a time, start the timer, or drag Current dim level." = "Alege un timp, pornește temporizatorul sau glisează nivelul curent de estompare.";
+"Custom timer" = "Temporizator personalizat";
+"Starting…" = "Se pornește…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • mai sunt %2$@%3$@";
+" • dimming gradually" = " • estompare treptată";
+"Use Restore when you want the screen back to normal." = "Folosește Restaurează când vrei ca ecranul să revină la normal.";
+"Enter a value between 1 and 720 minutes." = "Introdu o valoare între 1 și 720 de minute.";
+"Choose a time first." = "Alege mai întâi un timp.";
+"%ld min" = "%ld min";
+"%ldm" = "%ldm";

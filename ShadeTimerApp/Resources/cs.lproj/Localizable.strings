@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Časovač";
+"Custom Minutes" = "Vlastní minuty";
+"Minutes" = "Minuty";
+"min" = "min";
+"Use" = "Použít";
+"Hide" = "Skrýt";
+"Start Timer" = "Spustit časovač";
+"Restore" = "Obnovit";
+"Cancel" = "Zrušit";
+"All Displays" = "Všechny displeje";
+"Gradually dim until timer ends" = "Postupně ztmavit až do konce časovače";
+"More Settings" = "Další nastavení";
+"Dim level" = "Úroveň ztmavení";
+"The dim level after the timer finishes." = "Úroveň ztmavení po dokončení časovače.";
+"Current dim level" = "Aktuální úroveň ztmavení";
+"Current dim level applies immediately while you drag it." = "Aktuální úroveň ztmavení se použije ihned při tažení.";
+"Fade duration" = "Délka prolínání";
+"Show remaining timer in menu bar" = "Zobrazit zbývající čas v řádku nabídek";
+"Quit" = "Ukončit";
+"Choose Time" = "Vybrat čas";
+"Ready to dim" = "Připraveno ke ztmavení";
+"Timer running" = "Časovač běží";
+"Screen dimmed" = "Obrazovka je ztmavená";
+"Choose a time, start the timer, or drag Current dim level." = "Vyber čas, spusť časovač nebo táhni posuvník Aktuální úrovně ztmavení.";
+"Custom timer" = "Vlastní časovač";
+"Starting…" = "Spouští se…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • zbývá %2$@%3$@";
+" • dimming gradually" = " • postupné ztmavování";
+"Use Restore when you want the screen back to normal." = "Když chceš obrazovku vrátit do normálu, použij Obnovit.";
+"Enter a value between 1 and 720 minutes." = "Zadej hodnotu mezi 1 a 720 minutami.";
+"Choose a time first." = "Nejdřív vyber čas.";
+"%ld min" = "%ld min";
+"%ldm" = "%ldm";

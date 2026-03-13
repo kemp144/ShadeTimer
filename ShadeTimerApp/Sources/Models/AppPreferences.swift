@@ -9,6 +9,7 @@ public final class AppPreferences: ObservableObject {
         static let dimAllDisplays = "dimAllDisplays"
         static let graduallyDimUntilTimerEnds = "graduallyDimUntilTimerEnds"
         static let showRemainingTimerInMenuBar = "showRemainingTimerInMenuBar"
+        static let sleepComputerWhenTimerEnds = "sleepComputerWhenTimerEnds"
     }
 
     @Published public var targetDimOpacity: Double {
@@ -47,6 +48,10 @@ public final class AppPreferences: ObservableObject {
         didSet { defaults.set(showRemainingTimerInMenuBar, forKey: Keys.showRemainingTimerInMenuBar) }
     }
 
+    @Published public var sleepComputerWhenTimerEnds: Bool {
+        didSet { defaults.set(sleepComputerWhenTimerEnds, forKey: Keys.sleepComputerWhenTimerEnds) }
+    }
+
     private let defaults: UserDefaults
 
     public init(defaults: UserDefaults = .standard) {
@@ -56,6 +61,7 @@ public final class AppPreferences: ObservableObject {
         dimAllDisplays = defaults.object(forKey: Keys.dimAllDisplays) as? Bool ?? false
         graduallyDimUntilTimerEnds = defaults.object(forKey: Keys.graduallyDimUntilTimerEnds) as? Bool ?? false
         showRemainingTimerInMenuBar = defaults.object(forKey: Keys.showRemainingTimerInMenuBar) as? Bool ?? false
+        sleepComputerWhenTimerEnds = defaults.object(forKey: Keys.sleepComputerWhenTimerEnds) as? Bool ?? false
     }
 }
 

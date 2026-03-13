@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Timer";
+"Custom Minutes" = "Custom Minutes";
+"Minutes" = "Minutes";
+"min" = "min";
+"Use" = "Use";
+"Hide" = "Hide";
+"Start Timer" = "Start Timer";
+"Restore" = "Restore";
+"Cancel" = "Cancel";
+"All Displays" = "All Displays";
+"Gradually dim until timer ends" = "Gradually dim until timer ends";
+"More Settings" = "More Settings";
+"Dim level" = "Dim level";
+"The dim level after the timer finishes." = "The dim level after the timer finishes.";
+"Current dim level" = "Current dim level";
+"Current dim level applies immediately while you drag it." = "Current dim level applies immediately while you drag it.";
+"Fade duration" = "Fade duration";
+"Show remaining timer in menu bar" = "Show remaining timer in menu bar";
+"Quit" = "Quit";
+"Choose Time" = "Choose Time";
+"Ready to dim" = "Ready to dim";
+"Timer running" = "Timer running";
+"Screen dimmed" = "Screen dimmed";
+"Choose a time, start the timer, or drag Current dim level." = "Choose a time, start the timer, or drag Current dim level.";
+"Custom timer" = "Custom timer";
+"Starting…" = "Starting…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • %2$@ remaining%3$@";
+" • dimming gradually" = " • dimming gradually";
+"Use Restore when you want the screen back to normal." = "Use Restore when you want the screen back to normal.";
+"Enter a value between 1 and 720 minutes." = "Enter a value between 1 and 720 minutes.";
+"Choose a time first." = "Choose a time first.";
+"%ld min" = "%ld min";
+"%ldm" = "%ldm";

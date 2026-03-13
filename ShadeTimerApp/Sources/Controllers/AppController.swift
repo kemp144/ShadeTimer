@@ -20,6 +20,7 @@ public final class AppController: ObservableObject {
 
     private let timerManager: TimerManager
     private let overlayManager: OverlayManager
+    private let sleepManager: SleepManager
     private var activeTimerDuration: TimeInterval?
     private var activeTargetDimOpacity: Double?
     private var runningPreset: TimerPreset?
@@ -33,9 +34,11 @@ public final class AppController: ObservableObject {
         let preferences = AppPreferences()
         let timerManager = TimerManager()
         let overlayManager = OverlayManager()
+        let sleepManager = SleepManager()
         self.preferences = preferences
         self.timerManager = timerManager
         self.overlayManager = overlayManager
+        self.sleepManager = sleepManager
         self.currentDimOpacity = 0
 
         timerManager.onExpiration = { [weak self] in
@@ -49,11 +52,13 @@ public final class AppController: ObservableObject {
     init(
         preferences: AppPreferences,
         timerManager: TimerManager,
-        overlayManager: OverlayManager
+        overlayManager: OverlayManager,
+        sleepManager: SleepManager = SleepManager()
     ) {
         self.preferences = preferences
         self.timerManager = timerManager
         self.overlayManager = overlayManager
+        self.sleepManager = sleepManager
         self.currentDimOpacity = 0
 
         timerManager.onExpiration = { [weak self] in
@@ -86,32 +91,38 @@ public final class AppController: ObservableObject {
     public var stateTitle: String {
         switch state {
         case .idle:
-            return "Ready to dim"
+            return AppLocalization.text("Ready to dim")
         case .countingDown:
-            return "Timer running"
+            return AppLocalization.text("Timer running")
         case .dimmed:
-            return "Screen dimmed"
+            return AppLocalization.text("Screen dimmed")
         }
     }
 
     public var stateSubtitle: String {
         switch state {
         case .idle:
-            return "Choose a time, start the timer, or drag Current dim level."
+            return AppLocalization.text("Choose a time, start the timer, or drag Current dim level.")
         case .countingDown:
             let presetText: String
             if let runningPreset {
                 presetText = runningPreset.buttonTitle
             } else if let runningCustomMinutes {
-                presetText = "\(runningCustomMinutes) min"
+                presetText = AppLocalization.format("%ld min", runningCustomMinutes)
             } else {
-                presetText = "Custom timer"
+                presetText = AppLocalization.text("Custom timer")
             }
-            let remainingText = remainingTime.flatMap(Self.durationFormatter.string(from:)) ?? "Starting…"
-            let modeText = activeTimerDimmingBehavior == .gradualUntilEnd ? " • dimming gradually" : ""
-            return "\(presetText) • \(remainingText) remaining\(modeText)"
+            let remainingText = remainingTime.flatMap(Self.durationFormatter.string(from:)) ?? AppLocalization.text("Starting…")
+            var modeSuffix = ""
+            if activeTimerDimmingBehavior == .gradualUntilEnd {
+                modeSuffix += AppLocalization.text(" • dimming gradually")
+            }
+            if preferences.sleepComputerWhenTimerEnds {
+                modeSuffix += AppLocalization.text(" • sleep at end")
+            }
+            return AppLocalization.format("%1$@ • %2$@ remaining%3$@", presetText, remainingText, modeSuffix)
         case .dimmed:
-            return "Use Restore when you want the screen back to normal."
+            return AppLocalization.text("Use Restore when you want the screen back to normal.")
         }
     }
 
@@ -139,7 +150,7 @@ public final class AppController: ObservableObject {
 
     public func selectCustomTimer(minutes: Int) {
         guard (1 ... 720).contains(minutes) else {
-            errorMessage = "Enter a value between 1 and 720 minutes."
+            errorMessage = AppLocalization.text("Enter a value between 1 and 720 minutes.")
             return
         }
 
@@ -161,7 +172,7 @@ public final class AppController: ObservableObject {
             return
         }
 
-        errorMessage = "Choose a time first."
+        errorMessage = AppLocalization.text("Choose a time first.")
     }
 
     public func startTimer(_ preset: TimerPreset) {
@@ -374,7 +385,21 @@ public final class AppController: ObservableObject {
         activeTimerDimmingBehavior = .dimAtEnd
         gradualSegmentStartRemaining = nil
         gradualSegmentStartOpacity = targetDimOpacity
-        state = .dimmed
+
+        guard preferences.sleepComputerWhenTimerEnds else {
+            state = .dimmed
+            return
+        }
+
+        do {
+            try sleepManager.sleepSystem()
+            overlayManager.tearDownImmediately()
+            currentDimOpacity = 0
+            state = .idle
+        } catch {
+            errorMessage = AppLocalization.text("Unable to put your Mac to sleep.")
+            state = .dimmed
+        }
     }
 
     private func refreshDimmingIfNeeded() {

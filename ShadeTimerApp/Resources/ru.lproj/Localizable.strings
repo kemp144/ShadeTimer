@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Таймер";
+"Custom Minutes" = "Свои минуты";
+"Minutes" = "Минуты";
+"min" = "мин";
+"Use" = "Использовать";
+"Hide" = "Скрыть";
+"Start Timer" = "Запустить таймер";
+"Restore" = "Восстановить";
+"Cancel" = "Отмена";
+"All Displays" = "Все дисплеи";
+"Gradually dim until timer ends" = "Постепенно затемнять до окончания таймера";
+"More Settings" = "Ещё настройки";
+"Dim level" = "Уровень затемнения";
+"The dim level after the timer finishes." = "Уровень затемнения после завершения таймера.";
+"Current dim level" = "Текущий уровень затемнения";
+"Current dim level applies immediately while you drag it." = "Текущий уровень затемнения применяется сразу при перетаскивании.";
+"Fade duration" = "Длительность затухания";
+"Show remaining timer in menu bar" = "Показывать оставшееся время в строке меню";
+"Quit" = "Выход";
+"Choose Time" = "Выбрать время";
+"Ready to dim" = "Готово к затемнению";
+"Timer running" = "Таймер запущен";
+"Screen dimmed" = "Экран затемнён";
+"Choose a time, start the timer, or drag Current dim level." = "Выберите время, запустите таймер или перетащите текущий уровень затемнения.";
+"Custom timer" = "Пользовательский таймер";
+"Starting…" = "Запуск…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • осталось %2$@%3$@";
+" • dimming gradually" = " • затемнение постепенно";
+"Use Restore when you want the screen back to normal." = "Используйте «Восстановить», когда захотите вернуть экран к обычному виду.";
+"Enter a value between 1 and 720 minutes." = "Введите значение от 1 до 720 минут.";
+"Choose a time first." = "Сначала выберите время.";
+"%ld min" = "%ld мин";
+"%ldm" = "%ldм";

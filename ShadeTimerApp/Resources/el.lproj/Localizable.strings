@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Χρονοδιακόπτης";
+"Custom Minutes" = "Προσαρμοσμένα λεπτά";
+"Minutes" = "Λεπτά";
+"min" = "λεπ.";
+"Use" = "Χρήση";
+"Hide" = "Απόκρυψη";
+"Start Timer" = "Έναρξη χρονοδιακόπτη";
+"Restore" = "Επαναφορά";
+"Cancel" = "Ακύρωση";
+"All Displays" = "Όλες οι οθόνες";
+"Gradually dim until timer ends" = "Σταδιακή μείωση φωτισμού μέχρι να λήξει ο χρονοδιακόπτης";
+"More Settings" = "Περισσότερες ρυθμίσεις";
+"Dim level" = "Επίπεδο σκίασης";
+"The dim level after the timer finishes." = "Το επίπεδο σκίασης μετά τη λήξη του χρονοδιακόπτη.";
+"Current dim level" = "Τρέχον επίπεδο σκίασης";
+"Current dim level applies immediately while you drag it." = "Το τρέχον επίπεδο σκίασης εφαρμόζεται αμέσως ενώ σύρεις.";
+"Fade duration" = "Διάρκεια μετάβασης";
+"Show remaining timer in menu bar" = "Εμφάνιση του υπολειπόμενου χρόνου στη γραμμή μενού";
+"Quit" = "Έξοδος";
+"Choose Time" = "Επιλογή χρόνου";
+"Ready to dim" = "Έτοιμο για σκίαση";
+"Timer running" = "Ο χρονοδιακόπτης εκτελείται";
+"Screen dimmed" = "Η οθόνη έχει σκοτεινιάσει";
+"Choose a time, start the timer, or drag Current dim level." = "Επίλεξε χρόνο, ξεκίνησε τον χρονοδιακόπτη ή σύρε το τρέχον επίπεδο σκίασης.";
+"Custom timer" = "Προσαρμοσμένος χρονοδιακόπτης";
+"Starting…" = "Εκκίνηση…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • απομένουν %2$@%3$@";
+" • dimming gradually" = " • σταδιακή σκίαση";
+"Use Restore when you want the screen back to normal." = "Χρησιμοποίησε την Επαναφορά όταν θέλεις να επανέλθει η οθόνη στο κανονικό.";
+"Enter a value between 1 and 720 minutes." = "Εισάγετε μια τιμή από 1 έως 720 λεπτά.";
+"Choose a time first." = "Επίλεξε πρώτα χρόνο.";
+"%ld min" = "%ld λεπ.";
+"%ldm" = "%ld λ.";

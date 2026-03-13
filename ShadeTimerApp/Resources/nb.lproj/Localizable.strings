@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Tidtaker";
+"Custom Minutes" = "Egendefinerte minutter";
+"Minutes" = "Minutter";
+"min" = "min";
+"Use" = "Bruk";
+"Hide" = "Skjul";
+"Start Timer" = "Start tidtaker";
+"Restore" = "Gjenopprett";
+"Cancel" = "Avbryt";
+"All Displays" = "Alle skjermer";
+"Gradually dim until timer ends" = "Demp gradvis til tidtakeren utløper";
+"More Settings" = "Flere innstillinger";
+"Dim level" = "Dempingsnivå";
+"The dim level after the timer finishes." = "Dempingsnivået etter at tidtakeren er ferdig.";
+"Current dim level" = "Gjeldende dempingsnivå";
+"Current dim level applies immediately while you drag it." = "Gjeldende dempingsnivå brukes med en gang mens du drar.";
+"Fade duration" = "Varighet på overgang";
+"Show remaining timer in menu bar" = "Vis gjenværende tid i menylinjen";
+"Quit" = "Avslutt";
+"Choose Time" = "Velg tid";
+"Ready to dim" = "Klar til å dempe";
+"Timer running" = "Tidtaker kjører";
+"Screen dimmed" = "Skjermen er dempet";
+"Choose a time, start the timer, or drag Current dim level." = "Velg en tid, start tidtakeren eller dra gjeldende dempingsnivå.";
+"Custom timer" = "Egendefinert tidtaker";
+"Starting…" = "Starter…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • %2$@ igjen%3$@";
+" • dimming gradually" = " • demper gradvis";
+"Use Restore when you want the screen back to normal." = "Bruk Gjenopprett når du vil ha skjermen tilbake til normalt.";
+"Enter a value between 1 and 720 minutes." = "Skriv inn en verdi mellom 1 og 720 minutter.";
+"Choose a time first." = "Velg en tid først.";
+"%ld min" = "%ld min";
+"%ldm" = "%ldm";

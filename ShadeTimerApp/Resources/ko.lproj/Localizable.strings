@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "타이머";
+"Custom Minutes" = "사용자 지정 분";
+"Minutes" = "분";
+"min" = "분";
+"Use" = "적용";
+"Hide" = "숨기기";
+"Start Timer" = "타이머 시작";
+"Restore" = "복원";
+"Cancel" = "취소";
+"All Displays" = "모든 디스플레이";
+"Gradually dim until timer ends" = "타이머가 끝날 때까지 서서히 어둡게 하기";
+"More Settings" = "추가 설정";
+"Dim level" = "어둡기 수준";
+"The dim level after the timer finishes." = "타이머가 끝난 뒤 적용될 어둡기 수준입니다.";
+"Current dim level" = "현재 어둡기 수준";
+"Current dim level applies immediately while you drag it." = "현재 어둡기 수준은 드래그하는 동안 즉시 적용됩니다.";
+"Fade duration" = "페이드 시간";
+"Show remaining timer in menu bar" = "메뉴 막대에 남은 시간 표시";
+"Quit" = "종료";
+"Choose Time" = "시간 선택";
+"Ready to dim" = "어둡게 할 준비 완료";
+"Timer running" = "타이머 실행 중";
+"Screen dimmed" = "화면이 어두워졌습니다";
+"Choose a time, start the timer, or drag Current dim level." = "시간을 선택하고 타이머를 시작하거나 현재 어둡기 수준을 드래그하세요.";
+"Custom timer" = "사용자 지정 타이머";
+"Starting…" = "시작 중…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • %2$@ 남음%3$@";
+" • dimming gradually" = " • 서서히 어둡게 하는 중";
+"Use Restore when you want the screen back to normal." = "화면을 다시 정상으로 되돌리려면 복원을 사용하세요.";
+"Enter a value between 1 and 720 minutes." = "1분에서 720분 사이의 값을 입력하세요.";
+"Choose a time first." = "먼저 시간을 선택하세요.";
+"%ld min" = "%ld분";
+"%ldm" = "%ld분";

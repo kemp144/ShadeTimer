@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Időzítő";
+"Custom Minutes" = "Egyéni percek";
+"Minutes" = "Percek";
+"min" = "p";
+"Use" = "Használat";
+"Hide" = "Elrejtés";
+"Start Timer" = "Időzítő indítása";
+"Restore" = "Visszaállítás";
+"Cancel" = "Mégse";
+"All Displays" = "Összes kijelző";
+"Gradually dim until timer ends" = "Fokozatos sötétítés az időzítő végéig";
+"More Settings" = "További beállítások";
+"Dim level" = "Sötétítési szint";
+"The dim level after the timer finishes." = "Az időzítő lejárta utáni sötétítési szint.";
+"Current dim level" = "Jelenlegi sötétítési szint";
+"Current dim level applies immediately while you drag it." = "A jelenlegi sötétítési szint húzás közben azonnal érvényesül.";
+"Fade duration" = "Átmenet időtartama";
+"Show remaining timer in menu bar" = "Hátralévő idő megjelenítése a menüsávban";
+"Quit" = "Kilépés";
+"Choose Time" = "Idő kiválasztása";
+"Ready to dim" = "Készen az elsötétítésre";
+"Timer running" = "Az időzítő fut";
+"Screen dimmed" = "A képernyő elsötétítve";
+"Choose a time, start the timer, or drag Current dim level." = "Válassz időt, indítsd el az időzítőt, vagy húzd a jelenlegi sötétítési szintet.";
+"Custom timer" = "Egyéni időzítő";
+"Starting…" = "Indítás…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • %2$@ maradt hátra%3$@";
+" • dimming gradually" = " • fokozatos sötétítés";
+"Use Restore when you want the screen back to normal." = "A Visszaállítás használatával kaphatod vissza a képernyőt normál állapotba.";
+"Enter a value between 1 and 720 minutes." = "Adj meg 1 és 720 perc közötti értéket.";
+"Choose a time first." = "Először válassz időt.";
+"%ld min" = "%ld perc";
+"%ldm" = "%ld p";

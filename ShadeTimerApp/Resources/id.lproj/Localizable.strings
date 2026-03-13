@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Timer";
+"Custom Minutes" = "Menit Kustom";
+"Minutes" = "Menit";
+"min" = "mnt";
+"Use" = "Gunakan";
+"Hide" = "Sembunyikan";
+"Start Timer" = "Mulai Timer";
+"Restore" = "Pulihkan";
+"Cancel" = "Batal";
+"All Displays" = "Semua Layar";
+"Gradually dim until timer ends" = "Redupkan perlahan hingga timer berakhir";
+"More Settings" = "Pengaturan Lainnya";
+"Dim level" = "Tingkat redup";
+"The dim level after the timer finishes." = "Tingkat redup setelah timer selesai.";
+"Current dim level" = "Tingkat redup saat ini";
+"Current dim level applies immediately while you drag it." = "Tingkat redup saat ini diterapkan segera saat Anda menyeret.";
+"Fade duration" = "Durasi fade";
+"Show remaining timer in menu bar" = "Tampilkan sisa waktu di bar menu";
+"Quit" = "Keluar";
+"Choose Time" = "Pilih Waktu";
+"Ready to dim" = "Siap meredupkan";
+"Timer running" = "Timer berjalan";
+"Screen dimmed" = "Layar diredupkan";
+"Choose a time, start the timer, or drag Current dim level." = "Pilih waktu, mulai timer, atau geser Tingkat redup saat ini.";
+"Custom timer" = "Timer kustom";
+"Starting…" = "Memulai…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • tersisa %2$@%3$@";
+" • dimming gradually" = " • meredup secara bertahap";
+"Use Restore when you want the screen back to normal." = "Gunakan Pulihkan saat Anda ingin layar kembali normal.";
+"Enter a value between 1 and 720 minutes." = "Masukkan nilai antara 1 dan 720 menit.";
+"Choose a time first." = "Pilih waktu terlebih dahulu.";
+"%ld min" = "%ld mnt";
+"%ldm" = "%ldmnt";

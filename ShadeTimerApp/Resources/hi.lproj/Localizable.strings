@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "टाइमर";
+"Custom Minutes" = "कस्टम मिनट";
+"Minutes" = "मिनट";
+"min" = "मि";
+"Use" = "उपयोग करें";
+"Hide" = "छिपाएँ";
+"Start Timer" = "टाइमर शुरू करें";
+"Restore" = "पुनर्स्थापित करें";
+"Cancel" = "रद्द करें";
+"All Displays" = "सभी डिस्प्ले";
+"Gradually dim until timer ends" = "टाइमर समाप्त होने तक धीरे-धीरे डिम करें";
+"More Settings" = "और सेटिंग्स";
+"Dim level" = "डिम स्तर";
+"The dim level after the timer finishes." = "टाइमर खत्म होने के बाद का डिम स्तर।";
+"Current dim level" = "वर्तमान डिम स्तर";
+"Current dim level applies immediately while you drag it." = "खींचते समय वर्तमान डिम स्तर तुरंत लागू होता है।";
+"Fade duration" = "फेड अवधि";
+"Show remaining timer in menu bar" = "मेनू बार में शेष समय दिखाएँ";
+"Quit" = "बंद करें";
+"Choose Time" = "समय चुनें";
+"Ready to dim" = "डिम करने के लिए तैयार";
+"Timer running" = "टाइमर चल रहा है";
+"Screen dimmed" = "स्क्रीन डिम है";
+"Choose a time, start the timer, or drag Current dim level." = "समय चुनें, टाइमर शुरू करें, या वर्तमान डिम स्तर खींचें।";
+"Custom timer" = "कस्टम टाइमर";
+"Starting…" = "शुरू हो रहा है…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • %2$@ शेष%3$@";
+" • dimming gradually" = " • धीरे-धीरे डिम हो रहा है";
+"Use Restore when you want the screen back to normal." = "जब आप स्क्रीन को सामान्य पर लौटाना चाहें, तो पुनर्स्थापित करें का उपयोग करें।";
+"Enter a value between 1 and 720 minutes." = "1 से 720 मिनट के बीच का मान दर्ज करें।";
+"Choose a time first." = "पहले एक समय चुनें।";
+"%ld min" = "%ld मिनट";
+"%ldm" = "%ld मि";

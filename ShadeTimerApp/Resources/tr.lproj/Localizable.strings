@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Zamanlayıcı";
+"Custom Minutes" = "Özel Dakikalar";
+"Minutes" = "Dakikalar";
+"min" = "dk";
+"Use" = "Kullan";
+"Hide" = "Gizle";
+"Start Timer" = "Zamanlayıcıyı Başlat";
+"Restore" = "Geri Yükle";
+"Cancel" = "İptal";
+"All Displays" = "Tüm Ekranlar";
+"Gradually dim until timer ends" = "Zamanlayıcı bitene kadar kademeli olarak karart";
+"More Settings" = "Daha Fazla Ayar";
+"Dim level" = "Karartma düzeyi";
+"The dim level after the timer finishes." = "Zamanlayıcı bittiğinde uygulanacak karartma düzeyi.";
+"Current dim level" = "Geçerli karartma düzeyi";
+"Current dim level applies immediately while you drag it." = "Geçerli karartma düzeyi sürüklerken hemen uygulanır.";
+"Fade duration" = "Geçiş süresi";
+"Show remaining timer in menu bar" = "Menü çubuğunda kalan süreyi göster";
+"Quit" = "Çık";
+"Choose Time" = "Süre Seç";
+"Ready to dim" = "Karartmaya hazır";
+"Timer running" = "Zamanlayıcı çalışıyor";
+"Screen dimmed" = "Ekran karartıldı";
+"Choose a time, start the timer, or drag Current dim level." = "Bir süre seç, zamanlayıcıyı başlat veya Geçerli karartma düzeyini sürükle.";
+"Custom timer" = "Özel zamanlayıcı";
+"Starting…" = "Başlatılıyor…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • %2$@ kaldı%3$@";
+" • dimming gradually" = " • kademeli olarak kararıyor";
+"Use Restore when you want the screen back to normal." = "Ekranı normale döndürmek istediğinde Geri Yükle’yi kullan.";
+"Enter a value between 1 and 720 minutes." = "1 ile 720 dakika arasında bir değer gir.";
+"Choose a time first." = "Önce bir süre seç.";
+"%ld min" = "%ld dk";
+"%ldm" = "%lddk";

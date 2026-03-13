@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Timer";
+"Custom Minutes" = "Brugerdefinerede minutter";
+"Minutes" = "Minutter";
+"min" = "min";
+"Use" = "Brug";
+"Hide" = "Skjul";
+"Start Timer" = "Start timer";
+"Restore" = "Gendan";
+"Cancel" = "Annuller";
+"All Displays" = "Alle skærme";
+"Gradually dim until timer ends" = "Dæmp gradvist indtil timeren udløber";
+"More Settings" = "Flere indstillinger";
+"Dim level" = "Dæmpningsniveau";
+"The dim level after the timer finishes." = "Dæmpningsniveauet efter timeren er færdig.";
+"Current dim level" = "Aktuelt dæmpningsniveau";
+"Current dim level applies immediately while you drag it." = "Det aktuelle dæmpningsniveau anvendes med det samme, mens du trækker.";
+"Fade duration" = "Fade-varighed";
+"Show remaining timer in menu bar" = "Vis resterende tid i menulinjen";
+"Quit" = "Afslut";
+"Choose Time" = "Vælg tid";
+"Ready to dim" = "Klar til at dæmpe";
+"Timer running" = "Timer kører";
+"Screen dimmed" = "Skærmen er dæmpet";
+"Choose a time, start the timer, or drag Current dim level." = "Vælg en tid, start timeren, eller træk i Aktuelt dæmpningsniveau.";
+"Custom timer" = "Brugerdefineret timer";
+"Starting…" = "Starter…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • %2$@ tilbage%3$@";
+" • dimming gradually" = " • dæmper gradvist";
+"Use Restore when you want the screen back to normal." = "Brug Gendan, når du vil have skærmen tilbage til normal.";
+"Enter a value between 1 and 720 minutes." = "Indtast en værdi mellem 1 og 720 minutter.";
+"Choose a time first." = "Vælg først en tid.";
+"%ld min" = "%ld min";
+"%ldm" = "%ldm";

@@ -14,10 +14,10 @@ public enum TimerPreset: Int, CaseIterable, Identifiable {
     }
 
     public var buttonTitle: String {
-        "\(rawValue) min"
+        AppLocalization.format("%ld min", rawValue)
     }
 
     public var compactTitle: String {
-        "\(rawValue)m"
+        AppLocalization.format("%ldm", rawValue)
     }
 }

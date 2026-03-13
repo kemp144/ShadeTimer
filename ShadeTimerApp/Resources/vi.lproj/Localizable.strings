@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Bộ hẹn giờ";
+"Custom Minutes" = "Phút tùy chỉnh";
+"Minutes" = "Phút";
+"min" = "ph";
+"Use" = "Dùng";
+"Hide" = "Ẩn";
+"Start Timer" = "Bắt đầu hẹn giờ";
+"Restore" = "Khôi phục";
+"Cancel" = "Hủy";
+"All Displays" = "Tất cả màn hình";
+"Gradually dim until timer ends" = "Làm tối dần cho đến khi bộ hẹn giờ kết thúc";
+"More Settings" = "Cài đặt khác";
+"Dim level" = "Mức làm tối";
+"The dim level after the timer finishes." = "Mức làm tối sau khi bộ hẹn giờ kết thúc.";
+"Current dim level" = "Mức làm tối hiện tại";
+"Current dim level applies immediately while you drag it." = "Mức làm tối hiện tại được áp dụng ngay khi bạn kéo.";
+"Fade duration" = "Thời lượng mờ dần";
+"Show remaining timer in menu bar" = "Hiển thị thời gian còn lại trên thanh menu";
+"Quit" = "Thoát";
+"Choose Time" = "Chọn thời gian";
+"Ready to dim" = "Sẵn sàng làm tối";
+"Timer running" = "Bộ hẹn giờ đang chạy";
+"Screen dimmed" = "Màn hình đã tối";
+"Choose a time, start the timer, or drag Current dim level." = "Chọn thời gian, bắt đầu hẹn giờ hoặc kéo Mức làm tối hiện tại.";
+"Custom timer" = "Bộ hẹn giờ tùy chỉnh";
+"Starting…" = "Đang bắt đầu…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • còn %2$@%3$@";
+" • dimming gradually" = " • đang làm tối dần";
+"Use Restore when you want the screen back to normal." = "Dùng Khôi phục khi bạn muốn màn hình trở lại bình thường.";
+"Enter a value between 1 and 720 minutes." = "Nhập giá trị từ 1 đến 720 phút.";
+"Choose a time first." = "Hãy chọn thời gian trước.";
+"%ld min" = "%ld phút";
+"%ldm" = "%ldph";

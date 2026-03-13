@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Temporizador";
+"Custom Minutes" = "Minutos personalizados";
+"Minutes" = "Minutos";
+"min" = "min";
+"Use" = "Usar";
+"Hide" = "Ocultar";
+"Start Timer" = "Iniciar temporizador";
+"Restore" = "Restaurar";
+"Cancel" = "Cancelar";
+"All Displays" = "Todos os monitores";
+"Gradually dim until timer ends" = "Escurecer gradualmente até o temporizador terminar";
+"More Settings" = "Mais ajustes";
+"Dim level" = "Nível de escurecimento";
+"The dim level after the timer finishes." = "O nível de escurecimento após o temporizador terminar.";
+"Current dim level" = "Nível de escurecimento atual";
+"Current dim level applies immediately while you drag it." = "O nível de escurecimento atual é aplicado imediatamente enquanto você arrasta.";
+"Fade duration" = "Duração do fade";
+"Show remaining timer in menu bar" = "Mostrar tempo restante na barra de menus";
+"Quit" = "Sair";
+"Choose Time" = "Escolher tempo";
+"Ready to dim" = "Pronto para escurecer";
+"Timer running" = "Temporizador em execução";
+"Screen dimmed" = "Tela escurecida";
+"Choose a time, start the timer, or drag Current dim level." = "Escolha um tempo, inicie o temporizador ou arraste o nível de escurecimento atual.";
+"Custom timer" = "Temporizador personalizado";
+"Starting…" = "Iniciando…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • faltam %2$@%3$@";
+" • dimming gradually" = " • escurecendo gradualmente";
+"Use Restore when you want the screen back to normal." = "Use Restaurar quando quiser voltar a tela ao normal.";
+"Enter a value between 1 and 720 minutes." = "Digite um valor entre 1 e 720 minutos.";
+"Choose a time first." = "Escolha um tempo primeiro.";
+"%ld min" = "%ld min";
+"%ldm" = "%ldm";

@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "計時器";
+"Custom Minutes" = "自訂分鐘";
+"Minutes" = "分鐘";
+"min" = "分";
+"Use" = "使用";
+"Hide" = "隱藏";
+"Start Timer" = "開始計時";
+"Restore" = "還原";
+"Cancel" = "取消";
+"All Displays" = "所有顯示器";
+"Gradually dim until timer ends" = "在計時結束前逐步調暗";
+"More Settings" = "更多設定";
+"Dim level" = "調暗程度";
+"The dim level after the timer finishes." = "計時結束後的調暗程度。";
+"Current dim level" = "目前調暗程度";
+"Current dim level applies immediately while you drag it." = "拖曳時會立即套用目前調暗程度。";
+"Fade duration" = "淡入淡出時間";
+"Show remaining timer in menu bar" = "在選單列顯示剩餘時間";
+"Quit" = "結束";
+"Choose Time" = "選擇時間";
+"Ready to dim" = "準備調暗";
+"Timer running" = "計時進行中";
+"Screen dimmed" = "螢幕已調暗";
+"Choose a time, start the timer, or drag Current dim level." = "選擇時間、開始計時，或拖曳目前調暗程度。";
+"Custom timer" = "自訂計時器";
+"Starting…" = "正在開始…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • 剩餘 %2$@%3$@";
+" • dimming gradually" = " • 正在逐步調暗";
+"Use Restore when you want the screen back to normal." = "當你想讓螢幕恢復正常時，請使用「還原」。";
+"Enter a value between 1 and 720 minutes." = "請輸入 1 到 720 分鐘之間的數值。";
+"Choose a time first." = "請先選擇時間。";
+"%ld min" = "%ld 分鐘";
+"%ldm" = "%ld分";

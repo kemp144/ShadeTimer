@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Temporitzador";
+"Custom Minutes" = "Minuts personalitzats";
+"Minutes" = "Minuts";
+"min" = "min";
+"Use" = "Utilitza";
+"Hide" = "Amaga";
+"Start Timer" = "Inicia el temporitzador";
+"Restore" = "Restaura";
+"Cancel" = "Cancel·la";
+"All Displays" = "Totes les pantalles";
+"Gradually dim until timer ends" = "Atenua gradualment fins que acabi el temporitzador";
+"More Settings" = "Més paràmetres";
+"Dim level" = "Nivell d'atenuació";
+"The dim level after the timer finishes." = "El nivell d'atenuació després que acabi el temporitzador.";
+"Current dim level" = "Nivell d'atenuació actual";
+"Current dim level applies immediately while you drag it." = "El nivell d'atenuació actual s'aplica immediatament mentre l'arrossegues.";
+"Fade duration" = "Durada de la transició";
+"Show remaining timer in menu bar" = "Mostra el temps restant a la barra de menús";
+"Quit" = "Surt";
+"Choose Time" = "Tria el temps";
+"Ready to dim" = "A punt per atenuar";
+"Timer running" = "Temporitzador en marxa";
+"Screen dimmed" = "Pantalla atenuada";
+"Choose a time, start the timer, or drag Current dim level." = "Tria un temps, inicia el temporitzador o arrossega el nivell d'atenuació actual.";
+"Custom timer" = "Temporitzador personalitzat";
+"Starting…" = "S'està iniciant…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • queden %2$@%3$@";
+" • dimming gradually" = " • atenuant gradualment";
+"Use Restore when you want the screen back to normal." = "Fes servir Restaura quan vulguis tornar la pantalla a la normalitat.";
+"Enter a value between 1 and 720 minutes." = "Introdueix un valor entre 1 i 720 minuts.";
+"Choose a time first." = "Tria primer un temps.";
+"%ld min" = "%ld min";
+"%ldm" = "%ldm";

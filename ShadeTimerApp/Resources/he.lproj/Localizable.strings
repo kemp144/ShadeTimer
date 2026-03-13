@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "טיימר";
+"Custom Minutes" = "דקות מותאמות";
+"Minutes" = "דקות";
+"min" = "דק׳";
+"Use" = "השתמש";
+"Hide" = "הסתר";
+"Start Timer" = "התחל טיימר";
+"Restore" = "שחזר";
+"Cancel" = "בטל";
+"All Displays" = "כל הצגים";
+"Gradually dim until timer ends" = "עמעום הדרגתי עד לסיום הטיימר";
+"More Settings" = "הגדרות נוספות";
+"Dim level" = "רמת עמעום";
+"The dim level after the timer finishes." = "רמת העמעום לאחר שהטיימר מסתיים.";
+"Current dim level" = "רמת העמעום הנוכחית";
+"Current dim level applies immediately while you drag it." = "רמת העמעום הנוכחית חלה מיד בזמן הגרירה.";
+"Fade duration" = "משך הדעיכה";
+"Show remaining timer in menu bar" = "הצג את הזמן שנותר בשורת התפריטים";
+"Quit" = "צא";
+"Choose Time" = "בחר זמן";
+"Ready to dim" = "מוכן לעמעום";
+"Timer running" = "הטיימר פועל";
+"Screen dimmed" = "המסך מעומעם";
+"Choose a time, start the timer, or drag Current dim level." = "בחר זמן, התחל את הטיימר או גרור את רמת העמעום הנוכחית.";
+"Custom timer" = "טיימר מותאם";
+"Starting…" = "מתחיל…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • נותרו %2$@%3$@";
+" • dimming gradually" = " • מעמעם בהדרגה";
+"Use Restore when you want the screen back to normal." = "השתמש בשחזר כשתרצה להחזיר את המסך למצב רגיל.";
+"Enter a value between 1 and 720 minutes." = "הזן ערך בין 1 ל־720 דקות.";
+"Choose a time first." = "בחר זמן תחילה.";
+"%ld min" = "%ld דק׳";
+"%ldm" = "%ld ד׳";

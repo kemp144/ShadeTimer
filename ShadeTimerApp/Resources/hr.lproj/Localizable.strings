@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Timer";
+"Custom Minutes" = "Prilagođene minute";
+"Minutes" = "Minute";
+"min" = "min";
+"Use" = "Primijeni";
+"Hide" = "Sakrij";
+"Start Timer" = "Pokreni timer";
+"Restore" = "Vrati";
+"Cancel" = "Otkaži";
+"All Displays" = "Svi zasloni";
+"Gradually dim until timer ends" = "Postupno zatamni dok timer ne istekne";
+"More Settings" = "Više postavki";
+"Dim level" = "Razina zatamnjenja";
+"The dim level after the timer finishes." = "Razina zatamnjenja nakon isteka timera.";
+"Current dim level" = "Trenutna razina zatamnjenja";
+"Current dim level applies immediately while you drag it." = "Trenutna razina zatamnjenja primjenjuje se odmah dok povlačiš klizač.";
+"Fade duration" = "Trajanje prijelaza";
+"Show remaining timer in menu bar" = "Prikaži preostalo vrijeme u traci izbornika";
+"Quit" = "Zatvori";
+"Choose Time" = "Odaberi vrijeme";
+"Ready to dim" = "Spremno za zatamnjenje";
+"Timer running" = "Timer je pokrenut";
+"Screen dimmed" = "Zaslon je zatamnjen";
+"Choose a time, start the timer, or drag Current dim level." = "Odaberi vrijeme, pokreni timer ili povuci Trenutnu razinu zatamnjenja.";
+"Custom timer" = "Prilagođeni timer";
+"Starting…" = "Pokretanje…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • preostaje %2$@%3$@";
+" • dimming gradually" = " • postupno zatamnjenje";
+"Use Restore when you want the screen back to normal." = "Koristi Vrati kada želiš vratiti zaslon na normalu.";
+"Enter a value between 1 and 720 minutes." = "Unesi vrijednost između 1 i 720 minuta.";
+"Choose a time first." = "Najprije odaberi vrijeme.";
+"%ld min" = "%ld min";
+"%ldm" = "%ldm";

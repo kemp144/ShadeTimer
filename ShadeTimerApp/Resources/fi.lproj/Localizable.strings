@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Ajastin";
+"Custom Minutes" = "Mukautetut minuutit";
+"Minutes" = "Minuutit";
+"min" = "min";
+"Use" = "Käytä";
+"Hide" = "Piilota";
+"Start Timer" = "Käynnistä ajastin";
+"Restore" = "Palauta";
+"Cancel" = "Peruuta";
+"All Displays" = "Kaikki näytöt";
+"Gradually dim until timer ends" = "Himmennä asteittain, kunnes ajastin päättyy";
+"More Settings" = "Lisäasetukset";
+"Dim level" = "Himmennystaso";
+"The dim level after the timer finishes." = "Himmennystaso ajastimen päätyttyä.";
+"Current dim level" = "Nykyinen himmennystaso";
+"Current dim level applies immediately while you drag it." = "Nykyinen himmennystaso otetaan käyttöön heti, kun vedät liukusäädintä.";
+"Fade duration" = "Häivytyksen kesto";
+"Show remaining timer in menu bar" = "Näytä jäljellä oleva aika valikkorivillä";
+"Quit" = "Lopeta";
+"Choose Time" = "Valitse aika";
+"Ready to dim" = "Valmis himmentämään";
+"Timer running" = "Ajastin käynnissä";
+"Screen dimmed" = "Näyttö himmennetty";
+"Choose a time, start the timer, or drag Current dim level." = "Valitse aika, käynnistä ajastin tai vedä nykyistä himmennystasoa.";
+"Custom timer" = "Mukautettu ajastin";
+"Starting…" = "Käynnistetään…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • %2$@ jäljellä%3$@";
+" • dimming gradually" = " • himmennetään asteittain";
+"Use Restore when you want the screen back to normal." = "Käytä Palauta-toimintoa, kun haluat näytön takaisin normaaliksi.";
+"Enter a value between 1 and 720 minutes." = "Anna arvo väliltä 1–720 minuuttia.";
+"Choose a time first." = "Valitse ensin aika.";
+"%ld min" = "%ld min";
+"%ldm" = "%ldm";

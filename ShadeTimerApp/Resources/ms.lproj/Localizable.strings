@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Pemasa";
+"Custom Minutes" = "Minit Tersuai";
+"Minutes" = "Minit";
+"min" = "min";
+"Use" = "Guna";
+"Hide" = "Sembunyikan";
+"Start Timer" = "Mula Pemasa";
+"Restore" = "Pulihkan";
+"Cancel" = "Batal";
+"All Displays" = "Semua Paparan";
+"Gradually dim until timer ends" = "Malapkan secara beransur-ansur sehingga pemasa tamat";
+"More Settings" = "Lagi Tetapan";
+"Dim level" = "Tahap malap";
+"The dim level after the timer finishes." = "Tahap malap selepas pemasa selesai.";
+"Current dim level" = "Tahap malap semasa";
+"Current dim level applies immediately while you drag it." = "Tahap malap semasa digunakan serta-merta semasa anda menyeret.";
+"Fade duration" = "Tempoh pudar";
+"Show remaining timer in menu bar" = "Tunjukkan baki masa di bar menu";
+"Quit" = "Keluar";
+"Choose Time" = "Pilih Masa";
+"Ready to dim" = "Sedia untuk dimalapkan";
+"Timer running" = "Pemasa berjalan";
+"Screen dimmed" = "Skrin malap";
+"Choose a time, start the timer, or drag Current dim level." = "Pilih masa, mula pemasa, atau seret Tahap malap semasa.";
+"Custom timer" = "Pemasa tersuai";
+"Starting…" = "Memulakan…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • %2$@ lagi%3$@";
+" • dimming gradually" = " • malap secara beransur-ansur";
+"Use Restore when you want the screen back to normal." = "Gunakan Pulihkan apabila anda mahu skrin kembali normal.";
+"Enter a value between 1 and 720 minutes." = "Masukkan nilai antara 1 dan 720 minit.";
+"Choose a time first." = "Pilih masa dahulu.";
+"%ld min" = "%ld min";
+"%ldm" = "%ldm";

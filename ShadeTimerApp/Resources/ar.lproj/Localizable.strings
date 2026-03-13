@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "المؤقت";
+"Custom Minutes" = "دقائق مخصصة";
+"Minutes" = "الدقائق";
+"min" = "د";
+"Use" = "استخدام";
+"Hide" = "إخفاء";
+"Start Timer" = "ابدأ المؤقت";
+"Restore" = "استعادة";
+"Cancel" = "إلغاء";
+"All Displays" = "جميع الشاشات";
+"Gradually dim until timer ends" = "تعتيم تدريجي حتى ينتهي المؤقت";
+"More Settings" = "إعدادات إضافية";
+"Dim level" = "مستوى التعتيم";
+"The dim level after the timer finishes." = "مستوى التعتيم بعد انتهاء المؤقت.";
+"Current dim level" = "مستوى التعتيم الحالي";
+"Current dim level applies immediately while you drag it." = "يُطبَّق مستوى التعتيم الحالي فورًا أثناء السحب.";
+"Fade duration" = "مدة التلاشي";
+"Show remaining timer in menu bar" = "إظهار الوقت المتبقي في شريط القوائم";
+"Quit" = "إنهاء";
+"Choose Time" = "اختر الوقت";
+"Ready to dim" = "جاهز للتعتيم";
+"Timer running" = "المؤقت قيد التشغيل";
+"Screen dimmed" = "تم تعتيم الشاشة";
+"Choose a time, start the timer, or drag Current dim level." = "اختر وقتًا، ابدأ المؤقت، أو اسحب مستوى التعتيم الحالي.";
+"Custom timer" = "مؤقت مخصص";
+"Starting…" = "جارٍ البدء…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • متبقٍ %2$@%3$@";
+" • dimming gradually" = " • التعتيم تدريجيًا";
+"Use Restore when you want the screen back to normal." = "استخدم استعادة عندما تريد إعادة الشاشة إلى وضعها الطبيعي.";
+"Enter a value between 1 and 720 minutes." = "أدخل قيمة بين 1 و720 دقيقة.";
+"Choose a time first." = "اختر وقتًا أولًا.";
+"%ld min" = "%ld د";
+"%ldm" = "%ldد";

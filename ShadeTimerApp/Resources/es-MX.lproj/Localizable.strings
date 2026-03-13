@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "Temporizador";
+"Custom Minutes" = "Minutos personalizados";
+"Minutes" = "Minutos";
+"min" = "min";
+"Use" = "Usar";
+"Hide" = "Ocultar";
+"Start Timer" = "Iniciar temporizador";
+"Restore" = "Restaurar";
+"Cancel" = "Cancelar";
+"All Displays" = "Todas las pantallas";
+"Gradually dim until timer ends" = "Atenuar gradualmente hasta que termine el temporizador";
+"More Settings" = "Más ajustes";
+"Dim level" = "Nivel de atenuación";
+"The dim level after the timer finishes." = "El nivel de atenuación cuando termine el temporizador.";
+"Current dim level" = "Nivel actual de atenuación";
+"Current dim level applies immediately while you drag it." = "El nivel actual de atenuación se aplica de inmediato mientras arrastras.";
+"Fade duration" = "Duración del fundido";
+"Show remaining timer in menu bar" = "Mostrar el tiempo restante en la barra de menús";
+"Quit" = "Salir";
+"Choose Time" = "Elegir tiempo";
+"Ready to dim" = "Listo para atenuar";
+"Timer running" = "Temporizador en marcha";
+"Screen dimmed" = "Pantalla atenuada";
+"Choose a time, start the timer, or drag Current dim level." = "Elige un tiempo, inicia el temporizador o arrastra el nivel actual de atenuación.";
+"Custom timer" = "Temporizador personalizado";
+"Starting…" = "Iniciando…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • quedan %2$@%3$@";
+" • dimming gradually" = " • atenuando gradualmente";
+"Use Restore when you want the screen back to normal." = "Usa Restaurar cuando quieras que la pantalla vuelva a la normalidad.";
+"Enter a value between 1 and 720 minutes." = "Ingresa un valor entre 1 y 720 minutos.";
+"Choose a time first." = "Elige un tiempo primero.";
+"%ld min" = "%ld min";
+"%ldm" = "%ldm";

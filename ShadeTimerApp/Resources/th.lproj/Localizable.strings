@@ -1,0 +1,35 @@
+/* Auto-generated localization table for ShadeTimer. */
+
+"Timer" = "ตัวจับเวลา";
+"Custom Minutes" = "นาทีแบบกำหนดเอง";
+"Minutes" = "นาที";
+"min" = "น.";
+"Use" = "ใช้";
+"Hide" = "ซ่อน";
+"Start Timer" = "เริ่มตัวจับเวลา";
+"Restore" = "คืนค่า";
+"Cancel" = "ยกเลิก";
+"All Displays" = "ทุกจอแสดงผล";
+"Gradually dim until timer ends" = "หรี่หน้าจอแบบค่อยเป็นค่อยไปจนกว่าตัวจับเวลาจะสิ้นสุด";
+"More Settings" = "การตั้งค่าเพิ่มเติม";
+"Dim level" = "ระดับความมืด";
+"The dim level after the timer finishes." = "ระดับความมืดหลังจากตัวจับเวลาสิ้นสุด";
+"Current dim level" = "ระดับความมืดปัจจุบัน";
+"Current dim level applies immediately while you drag it." = "ระดับความมืดปัจจุบันจะถูกนำไปใช้ทันทีขณะลาก";
+"Fade duration" = "ระยะเวลาการเฟด";
+"Show remaining timer in menu bar" = "แสดงเวลาที่เหลือในแถบเมนู";
+"Quit" = "ออกจากโปรแกรม";
+"Choose Time" = "เลือกเวลา";
+"Ready to dim" = "พร้อมสำหรับการหรี่หน้าจอ";
+"Timer running" = "ตัวจับเวลากำลังทำงาน";
+"Screen dimmed" = "หน้าจอถูกหรี่แล้ว";
+"Choose a time, start the timer, or drag Current dim level." = "เลือกเวลา เริ่มตัวจับเวลา หรือเลื่อนระดับความมืดปัจจุบัน";
+"Custom timer" = "ตัวจับเวลาแบบกำหนดเอง";
+"Starting…" = "กำลังเริ่ม…";
+"%1$@ • %2$@ remaining%3$@" = "%1$@ • เหลืออีก %2$@%3$@";
+" • dimming gradually" = " • กำลังหรี่แบบค่อยเป็นค่อยไป";
+"Use Restore when you want the screen back to normal." = "ใช้ คืนค่า เมื่อต้องการให้หน้าจอกลับเป็นปกติ";
+"Enter a value between 1 and 720 minutes." = "ป้อนค่าระหว่าง 1 ถึง 720 นาที";
+"Choose a time first." = "เลือกเวลาก่อน";
+"%ld min" = "%ld นาที";
+"%ldm" = "%ld น.";

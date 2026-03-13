@@ -14,6 +14,7 @@ final class AppPreferencesTests: XCTestCase {
         initial.dimAllDisplays = true
         initial.graduallyDimUntilTimerEnds = true
         initial.showRemainingTimerInMenuBar = true
+        initial.sleepComputerWhenTimerEnds = true
 
         let restored = AppPreferences(defaults: defaults)
         XCTAssertEqual(restored.targetDimOpacity, 0.61, accuracy: 0.001)
@@ -21,5 +22,6 @@ final class AppPreferencesTests: XCTestCase {
         XCTAssertTrue(restored.dimAllDisplays)
         XCTAssertTrue(restored.graduallyDimUntilTimerEnds)
         XCTAssertTrue(restored.showRemainingTimerInMenuBar)
+        XCTAssertTrue(restored.sleepComputerWhenTimerEnds)
     }
 }

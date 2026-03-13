@@ -10,8 +10,10 @@ ShadeTimer is a native macOS menu bar utility for gently dimming the screen afte
 - Inline custom timer entry inside the popover
 - Smooth overlay-based dimming for one display or all displays
 - Optional gradual dimming that ramps all the way until the timer expires
+- Optional automatic sleep when the timer ends
 - Manual restore with fade-out
 - Minimal in-app settings for dim level, current dim level, fade duration, and menu bar countdown
+- Localized UI bundles for the current Apple App Store language set
 - App Sandbox plus a privacy manifest for locally stored preferences
 
 ## Project Layout
